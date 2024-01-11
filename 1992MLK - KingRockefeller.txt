@@ -8384,19 +8384,19 @@ endingPicker = (out, totv, aa, quickstats) => {
         setImage("https://cdn.shoplightspeed.com/shops/640826/files/51359276/1652x1652x1/tvd-dream-imagine-and-believe-mlk-transfer.jpg");
         return `<h3>Baby there ain't no mountain high enough!</h3><p>Listen baby, ain't no mountain high, Ain't no valley low, ain't no river wide enough, baby. If you need me call me, no matter where you are. No matter how far, don't worry, baby. Just call my name, I'll be there in a hurry. You don't have to worry 'Cause, baby, there ain't no mountain high enough. Ain't no valley low enough. Ain't no river wide enough to keep me from getting to you, babe. </p>`;
     }
-    if(ans == 4416 && quickstats[0] < 269) {
+    if(campaignTrail_temp.player_answers[1] == 4416 && quickstats[0] < 269) {
         setImage("");
         return `<h3>Bill Clinton has won the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. His third-way Democratic policy ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>`;
     }
-    if(ans == 4416 && quickstats[0] > 269) {
+    if(campaignTrail_temp.player_answers[1] == 4416 && quickstats[0] > 269) {
         setImage("https://i.imgur.com/CfNF8w8.png");
         return `<h3>Bill Clinton has won the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. His third-way Democratic policy ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>`;
     }
-    if(ans == 4417 && quickstats[0] < 269) {
+    if(campaignTrail_temp.player_answers[1] == 4417 && quickstats[0] < 269) {
         setImage("");
         return `<h3>Tom Harkin has won the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. His strong populist reform ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>`;
     }
-    if(ans == 4417 && quickstats[0] > 269) {
+    if(campaignTrail_temp.player_answers[1] == 4417 && quickstats[0] > 269) {
         setImage("https://i.imgur.com/sbmnv0F.jpg");
         return `<h3>Tom Harkin has lost the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. He wasn't able to hand the Democrats the White House in 1992, which not many understand why. It's possible that he was just too liberal for the country, he wasn't enthusiastic enough, or his anti-NAFTA sentiment didn't resonate to enough Perot supporters. Regardless, President George H.W. Bush has been re-elected to another four year term, giving the Republican Party sixteen straight years of White House control. </p>`;
     }
