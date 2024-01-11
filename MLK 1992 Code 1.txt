@@ -16,7 +16,7 @@
             $(".container")[0].style.backgroundColor = "#0400ff";
 
 
-            document.getElementById("header").src = "https://i.imgur.com/sTVtPjQ.png";
+            document.getElementById("header").src = "https://matrix.redditspace.com/_matrix/media/r0/download/reddit.com/rr0byulntpac1";
 
 
             document.body.background = "https://i.pinimg.com/474x/c5/89/5e/c5895ef3c0cd247272fc6b70b4a87f18.jpg";
