@@ -8384,13 +8384,21 @@ endingPicker = (out, totv, aa, quickstats) => {
         setImage("https://cdn.shoplightspeed.com/shops/640826/files/51359276/1652x1652x1/tvd-dream-imagine-and-believe-mlk-transfer.jpg");
         return `<h3>Baby there ain't no mountain high enough!</h3><p>Listen baby, ain't no mountain high, Ain't no valley low, ain't no river wide enough, baby. If you need me call me, no matter where you are. No matter how far, don't worry, baby. Just call my name, I'll be there in a hurry. You don't have to worry 'Cause, baby, there ain't no mountain high enough. Ain't no valley low enough. Ain't no river wide enough to keep me from getting to you, babe. </p>`;
     }
-    if(campaignTrail_temp.player_answers[1] == 4416 && quickstats[0] < 269) {
+    if(ans == 4416 && quickstats[0] < 269) {
         setImage("");
         return `<h3>Bill Clinton has won the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. His third-way Democratic policy ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>`;
     }
-    if(campaignTrail_temp.player_answers[1] == 4416 && quickstats[0] > 269) {
+    if(ans == 4416 && quickstats[0] > 269) {
         setImage("https://i.imgur.com/CfNF8w8.png");
         return `<h3>Bill Clinton has won the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. His third-way Democratic policy ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>`;
+    }
+    if(ans == 4417 && quickstats[0] < 269) {
+        setImage("");
+        return `<h3>Tom Harkin has won the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. His strong populist reform ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>`;
+    }
+    if(ans == 4417 && quickstats[0] > 269) {
+        setImage("https://i.imgur.com/sbmnv0F.jpg");
+        return `<h3>Tom Harkin has lost the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. He wasn't able to hand the Democrats the White House in 1992, which not many understand why. It's possible that he was just too liberal for the country, he wasn't enthusiastic enough, or his anti-NAFTA sentiment didn't resonate to enough Perot supporters. Regardless, President George H.W. Bush has been re-elected to another four year term, giving the Republican Party sixteen straight years of White House control. </p>`;
     }
 }
 
@@ -8410,72 +8418,8 @@ campaignTrail_temp.jet_data = [{
     },
     "cyoa_enabled": false,
     "cyoa_data": {},
-    "endings_enabled": true,
-    "ending_data": {
-        "1703706921998": {
-            "id": 1703706921998,
-            "variable": 0,
-            "operator": "==",
-            "value": 0,
-            "endingImage": "https://images.pond5.com/isolated-old-television-turning-089424920_prevstill.jpeg",
-            "endingText": "<h3>Martin, you lost everything.</h3><p>Those were the exact words Peter Jennings said once Washington DC was called for George Bush. After hearing this, you turn off the television at your hotel room in Atlanta and go to bed, not wanting to think about anything more for the rest of the day.</p>",
-            "amount": "0"
-        },
-        "1703706922626": {
-            "id": 1703706922626,
-            "variable": 0,
-            "operator": ">",
-            "value": 0,
-            "endingImage": "https://www.usatoday.com/gcdn/-mm-/0e52638cdb647cd08bf1a48cb77143db66d4f0c7/c=478-0-1105-627/local/-/media/2016/11/11/INGroup/Evansville/636144858951515380-dukakis.jpg",
-            "endingText": "<h3>Shallow understanding from people of good will is more frustrating than absolute misunderstanding from people of ill will.</h3><p>This was truly a landslide loss. Even worse than Michael Dukakis. The Democrats are furious that you were the nominee, as they knew this loss would've happened. This is the fourth straight landslide loss for the Democratic Party, and they are scrambling to figure out where to go from here. Some are even saying that 1996 will be tough for the Democrats as well.<p><p>Your political career is over, but you can continue your activism for equality and justice around the world, and vigorously campaign for fellow Democratic candidates. The Republicans, on the other hand, have the White House for yet another four years, and it is up to President Bush to move the country through a post-Cold War 1990s and closer to the 21st century. </p>",
-            "amount": "0"
-        },
-        "1703706923187": {
-            "id": 1703706923187,
-            "variable": 0,
-            "operator": ">",
-            "value": 0,
-            "endingImage": "",
-            "endingText": "<h3>We must accept finite disappointment, but never lose infinite hope.</h3><p>Those were the final words that you say in your concession speech in front of 70,000 people at Piedmont Park in Downtown Atlanta. You just came off a loss in this election, which most people expected, but your supporters were very optimistic about your chances of becoming the first African-American president of the United States, given the circumstances of party fatigue and Ross Perot's candidacy. In the meantime, President Bush will be re-elected for another 4-year term, giving the Republican Party sixteen consecutive years in the White House.<p><p>Nevertheless, you are probably too old to run for President again, but you could find future avenues to re-enter politics, whether that would be running for Senate or Governor. Or you can just live a peaceful retirement in Atlanta, while continuing to fight for equality and justice, like you have for almost 40 years. It's up to you, Martin.</p>",
-            "amount": "125"
-        },
-        "1703706923786": {
-            "id": 1703706923786,
-            "variable": 0,
-            "operator": "==",
-            "value": 0,
-            "endingImage": "",
-            "endingText": "<h3>We're deadlocked. Thanks, Ross Perot.</h3><p>Either a 269-269 tie occurred or Ross Perot was able to win enough states to deadlock the Electoral College. The House and Senate get to vote on the President and Vice President, respectively. Considering the House is so strongly Democratic right now, that may prompt you to be elected President, although some of those Democrats were critical of your staunch liberalism. Nevertheless, this is an event that hasn't occurred since 1824, and the voters are blaming all of this on Ross Perot. Good luck, Martin. You will need it.</p>",
-            "amount": "269"
-        },
-        "1703706924359": {
-            "id": 1703706924359,
-            "variable": 0,
-            "operator": ">",
-            "value": 0,
-            "endingImage": "",
-            "endingText": "<h3>I want you to know tonight that we as a people will get to the promised land.</h3><p>You did it, Mr. King. You have become the 42nd President of the United States, and the first African-American President. This is a historic night for the United States, and the crowd at Piedmont Park in Atlanta is quite optimistic and proud of you. Over 60,000 people packed into this park to watch the election results, and pray that you'd be elected the next President, and you sure did. <p><p>Many Republicans are blaming Ross Perot for your victory, as he may have taken a lot of votes away from President Bush, allowing you to win the presidency. Nevertheless, the optimism for equality, justice, and progress is blossoming all across the United States. Congress is in your favor, in spite of many conservative Southern Democrats who may be critical of some of your policies. For now, try to pass as much legislation as possible, and don't screw it up. Good luck our friend, Martin. You will need it. </p>",
-            "amount": "269"
-        },
-        "1703706924959": {
-            "id": 1703706924959,
-            "variable": 0,
-            "operator": ">",
-            "value": 0,
-            "endingImage": "https://www.desmoinesregister.com/gcdn/presto/2019/01/08/PDEM/f03d9787-15a7-4ea1-bbcf-e890e9590e22-ed0c2e84-34d5-4615-8917-b7f67560dada_thumbnail.png?width=1280&height=720&fit=crop&format=pjpg&auto=webp",
-            "endingText": "<h3>Wow, this is surely a Revolution.</h3><p>This is a result that very few of your supporters expected, but they are overjoyed nonetheless. You are winning states that not many expected, including Georgia, Florida, Louisiana, and more. <p><p>You will be the first African-American President of the United States, getting elected in a true landslide. It seems as though Ross Perot was able to take enough votes away from Bush to allow you to win the election with such a large number of electoral votes. As furious as Republicans are at Perot, some are hopeful about how you will take the country over the next four years. Just be mindful that many conservative Southern Democrats might be wary of your policies, so don't screw up too much or the 1994 midterms won't go well for you. Best of luck to you, President-elect King. </p>",
-            "amount": "370"
-        },
-        "1703706925535": {
-            "id": 1703706925535,
-            "variable": 0,
-            "operator": "==",
-            "value": 0,
-            "endingImage": "https://cdn.shoplightspeed.com/shops/640826/files/51359276/1652x1652x1/tvd-dream-imagine-and-believe-mlk-transfer.jpg",
-            "endingText": "<h3>Baby there ain't no mountain high enough!</h3><p>Listen baby, ain't no mountain high, Ain't no valley low, ain't no river wide enough, baby. If you need me call me, no matter where you are. No matter how far, don't worry, baby. Just call my name, I'll be there in a hurry. You don't have to worry 'Cause, baby, there ain't no mountain high enough. Ain't no valley low enough. Ain't no river wide enough to keep me from getting to you, babe. </p>",
-            "amount": "538"
-        }
-    },
+    "endings_enabled": false,
+    "ending_data": {},
     "mapping_enabled": false,
     "mapping_data": {}
 }
