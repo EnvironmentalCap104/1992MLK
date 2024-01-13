@@ -8508,18 +8508,16 @@ campaignTrail_temp.running_mate_state_id = '497';
 campaignTrail_temp.running_mate_image_url = 'https://i.ibb.co/wdSWfVp/image.png';
 campaignTrail_temp.running_mate_last_name = 'Gore';
 
-        campaignTrail_temp.candidate_json[1]["fields"].electoral_victory_message = "<h3>Bill Clinton has won the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. His third-way Democratic policy ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>";
-        campaignTrail_temp.candidate_json[1]["fields"].electoral_loss_message = "<h3>Bill Clinton has lost the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. He wasn't able to hand the Democrats the White House in 1992, which is likely due to some baggage he had, as well as his relative unfamiliarity with the general public outside of Arkansas. Therefore, President George H.W. Bush has been re-elected to another four year term, giving the Republican Party sixteen straight years of White House control. </p>";
-}
-
-    if(ans == 4416){
+        campaignTrail_temp.candidate_json[0]["fields"].electoral_victory_message = "<h3>Bill Clinton has won the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. His third-way Democratic policy ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>";
+        campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<h3>Bill Clinton has lost the 1992 election.</h3><p>After you dropped out, the primary became a bitter fight between California Governor Jerry Brown and Arkansas Governor Bill Clinton. The relatively unknown, youthful Bill Clinton became the party nominee for the Democrats in 1992. He wasn't able to hand the Democrats the White House in 1992, which is likely due to some baggage he had, as well as his relative unfamiliarity with the general public outside of Arkansas. Therefore, President George H.W. Bush has been re-elected to another four year term, giving the Republican Party sixteen straight years of White House control. </p>";
+  campaignTrail_temp.multiple_endings=false
          campaignTrail_temp.question_number = 24;
 }
 
     if(ans == 4417){
          campaignTrail_temp.question_number = 24;
-}
-    if(ans == 4417){
+  campaignTrail_temp.multiple_endings=false
+
         campaignTrail_temp.candidate_json[0]["fields"].first_name = "Tom";
         campaignTrail_temp.candidate_last_name = 'Harkin';
         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/sbmnv0F.jpg';
@@ -8529,7 +8527,7 @@ campaignTrail_temp.running_mate_state_id = '504';
 campaignTrail_temp.running_mate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jay_Rockefeller_portrait_%283x4%29.jpg/674px-Jay_Rockefeller_portrait_%283x4%29.jpg';
 campaignTrail_temp.running_mate_last_name = 'Rockefeller';
 
-        campaignTrail_temp.candidate_json[1]["fields"].electoral_victory_message = "<h3>Tom Harkin has won the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. His strong populist reform ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>";
-        campaignTrail_temp.candidate_json[1]["fields"].electoral_loss_message = "<h3>Tom Harkin has lost the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. He wasn't able to hand the Democrats the White House in 1992, which not many understand why. It's possible that he was just too liberal for the country, he wasn't enthusiastic enough, or his anti-NAFTA sentiment didn't resonate to enough Perot supporters. Regardless, President George H.W. Bush has been re-elected to another four year term, giving the Republican Party sixteen straight years of White House control. </p>";
+        campaignTrail_temp.candidate_json[0]["fields"].electoral_victory_message = "<h3>Tom Harkin has won the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. His strong populist reform ideas seemed to resonate with enough voters to hand him the presidency, on top of Ross Perot's candidacy and the unpopularity of President George H.W. Bush. </p>";
+        campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<h3>Tom Harkin has lost the 1992 election.</h3><p>After you dropped out, the momentum was on the side of Iowa Senator Tom Harkin, allowing him to win the party nomination for the Democrats. He wasn't able to hand the Democrats the White House in 1992, which not many understand why. It's possible that he was just too liberal for the country, he wasn't enthusiastic enough, or his anti-NAFTA sentiment didn't resonate to enough Perot supporters. Regardless, President George H.W. Bush has been re-elected to another four year term, giving the Republican Party sixteen straight years of White House control. </p>";
 }
 }
